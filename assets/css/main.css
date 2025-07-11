@@ -30,6 +30,10 @@ main {
   width: auto;
 }
 
+.btn:hover {
+  background-color: #252432;
+}
+
 header {
   background-image: url("../images/hero-bg.png");
   height: 700px;
@@ -139,6 +143,41 @@ header {
   font-weight: 400;
 }
 
+/* Focus Section Styles */
+.focus-container {
+  padding: 70px;
+  margin-bottom: 90px;
+  border-radius: 14px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.focus-container h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.focus-container p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.focus-container .btn {
+  font-weight: 500;
+}
+
+.focus-container img {
+  border-radius: 48px;
+}
+
 /* Get in Touch Section Styles */
 .get-in-touch-container {
   display: flex;
@@ -228,4 +267,8 @@ footer {
   font-weight: 400;
   line-height: 24px;
   text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
 }

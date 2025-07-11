@@ -102,3 +102,39 @@ header {
 .action-right-content img {
   border-radius: 48px;
 }
+
+/* Productive Section Styles */
+.productive-container {
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.1);
+  margin-bottom: 130px;
+  padding: 50px 80px;
+}
+
+.productive-container h2 {
+  color: #252432;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.productive-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.productive-content h1 {
+  font-family: "Inter", sans-serif;
+  color: #4e47ff;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.productive-content p {
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}

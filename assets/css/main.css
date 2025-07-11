@@ -138,3 +138,55 @@ header {
   font-size: 20px;
   font-weight: 400;
 }
+
+/* Get in Touch Section Styles */
+.get-in-touch-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.get-in-touch-container .left-content h2 {
+  font-size: 97px;
+  font-weight: 700;
+  line-height: 116px;
+}
+
+.info-form {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.info-content p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.info-content input,
+.info-content textarea {
+  border-radius: 10px;
+  border: 1px solid #d6dded;
+  background: #fff;
+  padding: 20px 32px;
+
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 500px;
+}
+
+.info-content textarea {
+  height: 135px;
+}
+
+.info-form .btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
